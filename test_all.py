@@ -113,7 +113,8 @@ def test_stack():
     implement stack (dont use python list - please implement as a LinkedList with push and pop at the head of the list)
 
     1. Push/Pop operations
-    2. Given a string - use the above built stack to solve Valid Parenthesis (https://leetcode.com/problems/valid-parentheses/) using this data structure
+    2. top
+    3. Given a string - use the above built stack to solve Valid Parenthesis (https://leetcode.com/problems/valid-parentheses/) using this data structure
 
 
     my_stack = Stack()
