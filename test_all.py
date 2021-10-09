@@ -73,6 +73,19 @@ def test_arrsort():
 
     < write code for testing other functions >
     """
+    Arr = [56,71,32,89,90]
+    temp = Arr.copy()
+
+    quicksort = Sort()
+    result = quicksort.quick_sort(temp)
+
+    Arr.sort()
+    if (Arr == result):
+        print('passed quick sort')
+    else:
+        print('failed quick sort')
+
+
     pass
 
 # Group 3
@@ -128,10 +141,13 @@ def test_stack():
     .
     """
 
-    def valid_parenthesis(str_: str) -> str:
-        return None
+    # def valid_parenthesis(str_: str) -> str:
+    #     return None
 
     # add more cases
     for test_str, exp_result in zip(["(((", "()()()", "))))"], [False, True,  False]):
         pass
         # assert(valid_parenthesis(test_str) == exp_result)
+
+if __name__ == '__main__':
+    test_arrsort()
