@@ -76,8 +76,8 @@ def test_arrsort():
     Arr = [56,71,32,89,90]
     temp = Arr.copy()
 
-    quicksort = Sort()
-    result = quicksort.quick_sort(temp)
+    strategy = Sort()
+    result = strategy.sort_20558(temp)
 
     Arr.sort()
     if (Arr == result):
